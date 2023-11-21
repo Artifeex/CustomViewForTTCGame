@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyCustomView" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="ticTacToeFieldStyle">@style/GlobalTicTacToeFieldStyle</item>
+    </style>
+
+    <style name="Theme.MyCustomView" parent="Base.Theme.MyCustomView" />
+
+    <style name="DefaultTicTacToeFieldStyle">
+        <item name="player1Color">#008800</item>
+        <item name="player2Color">#880000</item>
+        <item name="gridColor">#dfdfdf</item>
+    </style>
+    
+    <style name="GlobalTicTacToeFieldStyle" parent="DefaultTicTacToeFieldStyle">
+        <item name="player1Color">#0000ff</item>
+    </style>
+</resources>
